@@ -1,0 +1,11 @@
+// Esercizio: questo file contiene errori di compilazione.
+// Rinominalo in ErroreCompilazione.java, prova a compilarlo
+// con `javac src/ErroreCompilazione.java`, leggi i messaggi
+// del compilatore e correggili uno per uno.
+
+public class ErroreCompilazione {
+    public static void main(String[] args) {
+        System.out.println("Inizio")        // manca ;
+        int x = 10
+        System.out.println("x vale " + X);  // X non e' definita
+    }
